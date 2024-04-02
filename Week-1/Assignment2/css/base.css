@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0;
 }
@@ -12,15 +11,17 @@ header {
  
 ul {
 	color: #1e0909;
-	
 	padding: 0;
 	list-style: none;
 }
 .fir-col,.sec-col,.thi-col,.fou-col{
 	background-color: aqua;
-	padding: 30px;
-	margin: 50px;
+	width: 400px;
+	height: auto;
+	padding: 15px;
+	margin: 10px -50px;
 }
+
 .container-welcome{
     margin: 0;
 	text-align: center;

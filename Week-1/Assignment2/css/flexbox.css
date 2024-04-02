@@ -12,7 +12,7 @@
 /* 以上navigation  */
 .row1,.row2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /* ---- Layout Containers ---- */
