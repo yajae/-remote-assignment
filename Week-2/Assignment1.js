@@ -6,10 +6,14 @@ function max(numbers) {
     return val;
 }
 function findPosition(numbers, target) {
-    function istarget(number){
-        return number==target;
+for(let i=0; i<numbers.length; i++){
+    if(numbers[i]==target){
+        return numbers.indexOf(target);
+        break
+    }else{
+        return numbers.indexOf(target)
     }
-    return numbers.findIndex(istarget);
+}
 }
 
     console.log(max([1, 2, 4, 5])); // should print 5

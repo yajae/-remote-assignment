@@ -1,8 +1,8 @@
 function avg(data) {
     // your code here
-    let result=1;
-    for(let i=0;i<data.products.length;i++){
-        result=data.products[i].price*result;
+    let result=0;
+    for(let i=0;i<data["products"].length;i++){
+        result+=data["products"][i]["price"];
     }
     return result/data.size;
 }
