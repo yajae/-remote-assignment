@@ -1,7 +1,8 @@
 function max(numbers) {
-    let val=0;
-    for(let i=0; i<numbers.length; i++){
-        if(numbers[i]>val){val=numbers[i];};
+    let val;
+    for(let i=1; i<numbers.length; i++){
+        
+        if(numbers[i]>numbers[0]){val=numbers[i];};
     }
     return val;
 }
