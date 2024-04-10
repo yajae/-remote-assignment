@@ -10,12 +10,11 @@ function findPosition(numbers, target) {
     for(let i=0; i<numbers.length; i++){
         console.log(numbers[i]);
         if(numbers[i]==target){
-        return numbers.indexOf(target);
+        return i;
         break
         }
     }
     return -1
-}
 }
 
     console.log(max([1, 2, 4, 5])); // should print 5
