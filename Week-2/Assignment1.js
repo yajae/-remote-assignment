@@ -7,13 +7,14 @@ function max(numbers) {
     return val;
 }
 function findPosition(numbers, target) {
-for(let i=0; i<numbers.length; i++){
-    if(numbers[i]==target){
+    for(let i=0; i<numbers.length; i++){
+        console.log(numbers[i]);
+        if(numbers[i]==target){
         return numbers.indexOf(target);
         break
-    }else{
-        return numbers.indexOf(target)
+        }
     }
+    return -1
 }
 }
 
